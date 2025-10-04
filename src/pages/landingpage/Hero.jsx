@@ -65,7 +65,7 @@ const Hero = () => {
         </div>
       </section>
   
-      {/* <DraggableChatButton/> */}
+      <DraggableChatButton/>
     </div>
   );
 };

@@ -7,7 +7,7 @@ export default function DraggableChatButton() {
   const [pos, setPos] = useState({ x: 1170, y: 520 });
   const [open, setOpen] = useState(false);
   const [notifications, setNotifications] = useState([
-   
+   "no notification found"
   ]);
 
 
