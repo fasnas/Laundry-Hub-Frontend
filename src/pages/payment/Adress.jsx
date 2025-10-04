@@ -24,8 +24,6 @@ const AddressPage = () => {
 
   const token = localStorage.getItem("token");
   const navigate = useNavigate();
-  
-  const apiKey = process.env.REACT_APP_RAZORPAY_KEY_ID
 
   // React Hook Form setup
   const {
@@ -232,8 +230,7 @@ const AddressPage = () => {
     const { order, razorpayOrder } = orderData;
     
     const options = {
-      key: apiKey ,
-      // "rzp_test_GcYeDXpTqSAVpK",
+      key: "rzp_test_GcYeDXpTqSAVpK",
       amount: razorpayOrder.amount,
       currency: razorpayOrder.currency,
       name: "LaundryApp",
