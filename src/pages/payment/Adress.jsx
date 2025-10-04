@@ -232,7 +232,8 @@ const AddressPage = () => {
     const { order, razorpayOrder } = orderData;
     
     const options = {
-      key: apiKey || "rzp_test_GcYeDXpTqSAVpK",
+      key: apiKey ,
+      // "rzp_test_GcYeDXpTqSAVpK",
       amount: razorpayOrder.amount,
       currency: razorpayOrder.currency,
       name: "LaundryApp",
