@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
 import { Send, ArrowLeft } from 'lucide-react';
 import axiosInstance from '../../utils/AxiosInstance';
-import USER from '../../../../Backend/Src/model/userModel.js';
 
 const LaundryChat = () => {
   const [socket, setSocket] = useState(null);

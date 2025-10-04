@@ -152,7 +152,7 @@ const UserChat = () => {
       {selectedRoom ? (
         <div className="flex-1 flex flex-col mt-8 ">
           {/* Header */}
-          <div className="bg-[#4F7C82]  p-4 flex items-center space-x-3 shadow-sm ">
+          <div className="bg-gradient-to-br from-gray-700 to-gray-white  p-4 flex items-center space-x-3 shadow-sm ">
             <button
               onClick={handleBackClick}
               className="lg:hidden hover:bg-gray-100 p-2 rounded-full transition-colors"
